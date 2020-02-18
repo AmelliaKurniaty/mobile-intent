@@ -15,6 +15,7 @@ public class ProfileBundleActivity extends AppCompatActivity {
     private TextView nameText;
     private TextView ageText;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
