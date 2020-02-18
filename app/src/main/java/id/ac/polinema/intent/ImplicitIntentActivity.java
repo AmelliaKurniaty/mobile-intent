@@ -1,5 +1,4 @@
 package id.ac.polinema.intent;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -21,12 +20,14 @@ public class ImplicitIntentActivity extends AppCompatActivity {
     private static final int GALLERY_REQUEST_CODE = 1;
 
     private ImageView avatarImage;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_implicit_intent);
         avatarImage = findViewById(R.id.image_avatar);
+        imageView = (ImageView) findViewById(R.id.image_avatar);
     }
 
     @Override

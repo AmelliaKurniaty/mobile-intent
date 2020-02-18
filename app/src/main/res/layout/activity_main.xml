@@ -21,7 +21,7 @@
         <Button
             android:id="@+id/button_implicit"
             android:onClick="handleImplicitIntent"
-            android:text="@string/implicit_intent"
+            android:text="implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -29,6 +29,7 @@
         <Button
             android:id="@+id/button_bundle"
             android:text="@string/android_bundle"
+            android:onClick="handleBundleSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
